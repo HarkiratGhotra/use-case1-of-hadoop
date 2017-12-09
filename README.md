@@ -5,11 +5,11 @@
 #Description 
 * In Online stroe, user comes, log in and buy products
 
-** Here we have use case to show the most loyal user and the product user buys, so company can show them more discount on most buying product from specific user
+* Here we have use case to show the most loyal user and the product user buys, so company can show them more discount on most buying product from specific user
 
-*Fist - we get source files from remote server, there are three files related to Online Store, which contains product info, user info and user activity *
+* First - we get source files from remote server, there are three files related to Online Store, which contains product info, user info and user activity *
 
-*Source files are Product_info, User_info, User_activity
+* Source files are Product_info, User_info, User_activity
 * Then next step is transfering the source files to LAnding Zone.
 * We can use unix script inorder to transfer all three files to HDFS location, in this case landing zone is HDFS, where we are getting the source files.
 * We can use dctp for copyinh files from one cluster to another cluster
